@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.application.handing.vateapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.application.handing.vateapp.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_vate"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_vate"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.application.handing.vateapp.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.application.handing.vateapp.BeacList"
+            android:label="@string/title_activity_beac_list"
+            android:parentActivityName="com.application.handing.vateapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.application.handing.vateapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.application.handing.vateapp.Informazioni"
+            android:label="@string/title_activity_informazioni"
+            android:parentActivityName="com.application.handing.vateapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.application.handing.vateapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.application.handing.vateapp.Istruzioni"
+            android:label="@string/title_activity_istruzioni"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.application.handing.vateapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.application.handing.vateapp.Bevilacqua"
+            android:label="@string/title_activity_bevilacqua"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.application.handing.vateapp.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

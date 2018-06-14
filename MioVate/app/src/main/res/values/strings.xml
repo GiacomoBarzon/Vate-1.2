@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VATE</string>
+
+    <string name="title_activity_beac_list">Beacon nelle vicinanze</string>
+    <string name="title_activity_informazioni">Cos\'è Vate</string>
+    <string name="lista_beacon">Lista Beacon</string>
+    <string name="info">Cos\'è Vate</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_istruzioni">Come funziona</string>
+    <string name="title_activity_beacon_telemetry">beaconTelemetry</string>
+    <string name="title_activity_bevilacqua">Bevilacqua La Masa</string>
+
+</resources>
